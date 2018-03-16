@@ -11,6 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
+
+Route::get('contact-us', 'HomeController@getContactUsPage');
+
+Route::get('about', 'HomeController@getAboutPage');
+
+Route::get('pricing', 'HomeController@getPricingPage');
+
+Route::get('register', 'AccountsController@getRegistrationForm');
+
+Route::get('security', 'HomeController@getSecurityPage');
+
+Route::get('services', 'HomeController@getServicesPage');
+
+Route::get('why-ibinex', 'HomeController@getWhyIbinexPage');
