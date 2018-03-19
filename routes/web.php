@@ -15,7 +15,7 @@ Route::get('/', 'HomeController@index');
 
 Route::get('contact-us', 'HomeController@getContactUsPage');
 
-Route::get('about', 'HomeController@getAboutPage');
+Route::get('about-us', 'HomeController@getAboutPage');
 
 Route::get('pricing', 'HomeController@getPricingPage');
 

@@ -13,31 +13,37 @@ class HomeController extends Controller
 
     public function getContactUsPage()
     {
-        return view('base.contact-us');
+        return view('base.contact-us')
+            ->with('title', 'Contact Us');
     }
 
     public function getAboutPage()
     {
-        return view('base.about');
+        return view('base.about-us')
+            ->with('title', 'About Us');
     }
 
     public function getPricingPage()
     {
-        return view('base.pricing');
+        return view('base.pricing')
+            ->with('title', 'Pricing');
     }
 
     public function getSecurityPage()
     {
-        return view('base.security');
+        return view('base.security')
+            ->with('title', 'Security');
     }
 
     public function getServicesPage()
     {
-        return view('base.services');
+        return view('base.services')
+            ->with('title', 'Custodian Services');
     }
 
     public function getWhyIbinexPage()
     {
-        return view('base.why-ibinex');
+        return view('base.why-ibinex')
+            ->with('title', 'Why Ibinex');
     }
 }
