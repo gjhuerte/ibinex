@@ -1,0 +1,17 @@
+  
+@media only screen and (min-width: 768px) and (max-width : 1024px) {
+/* For tablet: */
+  #nusku-header {
+    grid-template-columns: 0.5fr 1.5fr 1.5fr 0.5fr;
+  }
+  .arrow-left,
+  .arrow-right {
+    position: relative;
+    top: 400px;
+  }
+   .padding,
+  .padding-video {
+      padding-left: 0%;
+      padding-right: 0%;
+  }
+}

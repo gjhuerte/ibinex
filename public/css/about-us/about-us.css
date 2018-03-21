@@ -1,0 +1,282 @@
+
+
+.uk-grid {
+    margin-left: 0;
+}
+.slick-slide {
+	outline: none
+}
+
+/*================ IBX BANNER =====================*/
+
+#ibx-banner {
+    font-family: "Montserrat";
+    box-sizing: border-box;
+    display: flex;
+	background-color: #152B59;
+}
+#banner-title{
+	font-size: 27px;
+	color: white;
+	font-weight: bold;	
+}	
+#banner-content{
+    order: 1;
+    width: 55%;
+    background-color : #152B59;
+    padding: 10.2em 17% 9em 6%;
+}
+#banner-inner {
+	margin-top: 30px;
+	font-size: 12px;
+	line-height: 1.7em;
+	color: white;
+	font-weight: 450;
+	text-align: justify;
+}
+
+/*================ IBX MEDIA =====================*/
+
+#ibx-media {
+	font-family: "Montserrat";
+    text-align: center;
+}
+#media-inner {
+	padding: 8% 0 2.5% 0;
+}   
+#media-title {
+	font-size: 27px;
+	color: rgb(26,26,26);
+	font-weight: 800;
+	text-align: center;
+}
+#media-cov {
+	width: 65%;
+	margin: auto;
+	padding-top: 6em;
+}
+.media-logo{
+    display:inline-block;
+    margin: 0 auto;
+	margin-bottom: 3em;
+    height: auto;
+    width: 15%;
+}
+
+/*================ EXEC TEAM =====================*/
+
+
+#ibx-team {
+	font-family: "Montserrat";
+	background-color : #F5F5F7;
+}
+
+.exec-header {
+    margin: 0;
+}
+.exec-half {
+    width: 48%;
+    margin-left: 52%;
+}
+#ibx-exec {
+    padding: 10% 18% 5.9% 18%;
+}   
+#exec-title-1 {
+	font-size: 15px;
+	line-height: 10px;
+	font-weight: 600;
+	color: rgb(54,54,54);
+}
+#exec-title-2 {
+	display: block;
+	width: 200px;
+	font-size: 27px;
+	line-height: 1.4em;
+	letter-spacing: -2px;
+	color: rgb(26,26,26);
+	font-weight: 800;
+}
+#exec-desc {
+    color: rgb(107,124,147);
+	line-height: 1.4em;
+    text-align: justify;
+	font-weight: 600;
+    display: block;
+	margin-top: 0.5em;
+}
+#exec-list {
+    position: relative;
+    min-height: 100%;
+    margin-top: 2%;
+}
+#exec-slideshow {
+	background: white;
+    border-radius: 10px;
+	width: 80%;
+	margin-left: 20%;
+}
+a.exec-arrows {
+	color: rgb(59,85,230);
+    position: absolute;
+    font-size: 200%;
+    vertical-align: middle;
+    text-decoration: none;
+    top: 10%;
+}
+#exec-prev {
+    right: 1.5em;
+}
+#exec-next {
+    right: 1%;
+}
+.exec-item {
+    width: 60%;
+    margin-left: 40%;
+}
+.exec-name, .exec-rank {
+	color: rgb(26,26,26);
+    font-weight: 600;
+}
+.exec-data {
+    padding: 1% 0;;
+    text-overflow: ellipsis;
+}
+.exec-info {
+	color: rgb(107,124,147);
+    padding: 2% 0;
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+    display: block;
+    text-align: justify;
+	font-weight: 600;
+    padding-right: 3%;
+}
+.exec-icons svg{
+	padding-bottom: 20%;
+	color: #4861E2;
+}
+.exec-links{
+	font-size: 12px;
+	line-height: 1em;
+	color: rgb(59,85,230);
+	font-family: "Font Awesome", serif;
+	font-style: italic;
+	text-decoration: underline;
+}
+.exec-cv {
+	margin-left: 3%;
+}
+#exec-album{
+    height: 200%;
+    width: 50%;
+    position: absolute;
+    top: -100%;
+    left: 0;
+	z-index: 999;
+}
+#exec-images {
+	position: relative;
+	height: 100%;
+}
+.exec-img {
+	position: absolute;
+	margin: auto;
+	height: 22em;
+	width: 25em;
+	z-index: -999;
+}
+.exec-img:nth-child(1){
+	z-index: 3;
+	bottom: 15%;
+	right: 28%;
+}
+.exec-img:nth-child(2){
+	z-index: 2;
+	bottom: 5%;
+	right: 20%;
+	opacity: 0.7;
+}
+.exec-img:nth-child(3){
+	z-index: 1;
+	bottom: 25%;
+	right: 10%;
+	opacity: 0.7;
+}
+
+#ibx-divider {
+    border: none;
+    height: 1.5px;
+    width: 25%;
+    margin: auto;
+    color: #99A6EB;
+    background-color: #99A6EB;
+}
+
+/*================ ADVISORY BOARD =====================*/
+
+
+#ibx-board{
+    text-align: center;
+    margin: auto;
+}
+span.board-mobile-title {
+	display: none;
+}
+.board-title {
+	font-size: 28px;
+	letter-spacing: -2px;
+	line-height: 41px;
+	color: rgb(26,26,26);
+	font-family: "Montserrat";
+    font-weight: 800;
+	margin: 2% 0 1% 0;
+	display: block;
+}
+.board-italic {
+	font-family: "Playfair Display";
+	font-size: 32px;
+	font-style: italic;
+	font-weight: 900;
+}
+#board-list {
+    padding: 1.5% 15% 8% 15%;;
+}
+#board-box {
+	position: relative;
+}
+.board-members{
+    width: 21%;
+    margin: 0 1% 2% 0;
+    vertical-align: top;
+    display: inline-block;
+	font-size: 12px;
+	color: rgb(26,26,26);
+}
+.board-members span{
+	display: block;
+}
+.board-img {
+    margin: 0 auto;
+    height:100%;
+    width: 100%;
+    padding-bottom: 10%;
+}
+.board-name {
+    font-weight: 800;
+}
+.board-rank {
+	letter-spacing: 0;
+	line-height: 1.1em;
+}
+a.board-arrows{
+	position: absolute;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	top: 35%;
+}
+#board-next {
+	right: 0;
+}
+#board-prev {
+	left: 0;
+}

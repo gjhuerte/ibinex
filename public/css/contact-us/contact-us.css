@@ -1,0 +1,107 @@
+.contact-us-background{
+    background-image: url(https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: #edeef2;
+    padding-top:20%;
+}
+
+.header-text {
+    font-size:1.8em;
+    font-size: var(--heading-40px);
+    font-weight: 900;
+}
+
+.support-header{
+    padding-bottom:6%;
+}
+
+.support-text{
+    padding-right:5%;
+}
+
+.intro-text-top{
+    color: #728298;
+    font-size: var( --paragraph-17px);
+    font-weight: 600;
+}
+.intro-text-top li span svg{
+    margin-right: 10px;
+}
+
+.intro-text-bottom{
+    color: #173d54;
+    font-size: 0.8em;
+    color: #728298;
+    font-size: var( --paragraph-17px);
+    font-weight: 600;
+}
+
+.text-holder{
+    margin-left:16%;
+    max-width: 38%;
+}
+
+.right{
+    height:100vh;
+    background-color: #b71c1c;
+    position:relative;
+}
+
+.white-form{
+    width:42%;
+    background-color: whitesmoke;
+    margin-left:12%;
+    margin-top:-23%;
+    margin-bottom: 15%;
+    padding:5%;
+}
+
+div#contact-us-form{
+    background-color:#b71c1c !important;
+}
+
+.bottom-text-left{
+    padding-bottom:50px;
+    max-width:368px;
+    float:right;
+    padding-top:77px;
+    font-weight:500;
+}
+
+
+.label{
+    font-size:0.7em;
+}
+
+
+#contact-us-form .white-form .form-input, #contact-us-form .white-form .form-textarea{
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 2px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 2px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 2px -2px rgba(0,0,0,0.75);
+}
+
+.form-button{
+    border-radius: 5px;
+    background-color: #142c5a;
+    color:whitesmoke;
+    font-weight: 900;
+}
+
+.form-textarea{
+    height:150px;
+    max-height: 200px;
+
+}
+
+
+.ext{
+    background-color: #b71c1c;
+    height:10vh;
+    border: 1px solid black;
+}
+
+.hidden{
+    visibility:hidden;
+}

@@ -1,0 +1,964 @@
+
+.red {
+  color: #FEFEFD;
+  width: 100%;
+}
+.red h3{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.red p{
+  text-align: center;
+}
+.grey1 p, li {
+  font-weight: 600;
+}
+.grey2 {
+  padding-bottom: -35%;
+}
+.uk-container h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 220%;
+  margin-right: 2%;
+}
+.red p{
+  font-size: 90%;
+}
+
+.uk-container li {
+  margin-bottom: 4%;
+}
+.imageleft {
+  margin-left: 2%;
+}
+.red p {
+  font-weight: 500;
+}
+.grey1 .platform-content {
+  color: #6B7C93;
+  margin-bottom: -5%;
+  margin-left: 0%;
+}
+.grey1 .platform-content h3 {
+  color: #2C3135;
+  margin-bottom: 10px;
+}
+.grey1 .platform-content p {
+  font-weight: 600;
+}
+.grey1 .platform-content li {
+  font-weight: 600;
+}
+.grey1 p, li {
+  color: #6B7C93;
+}
+#pl_list {
+  list-style: none;
+}
+.white1 .crmsection .crm-one h3 {
+  color: #2C3135;
+}
+.white1 .crmsection .crm-one p {
+  font-weight: 600;
+   color: #6B7C93;
+}
+.white1 .crmsection .crm-one li {
+  font-weight: 600;
+}
+.gradientcrypto {
+  background: #142C5C;
+  background: linear-gradient(to right, #142C5C , #134093);
+  margin-bottom: -5.7%;
+  width: 100%;
+}
+.gradientcrypto .gradientcrypto-img img {
+  margin-top: -5.5%;
+  margin-bottom: -16%;
+  width: 59%;
+  margin-left: 28.5%;
+}
+.gradientcrypto .gradientcrypto-content p {
+  font-weight: 600;
+  color: #fff;
+  max-width: 80%;
+  text-align: justify;
+}
+.white2 .creditcardsection .cc-content {
+  color: #6B7C93;
+  margin-top: -12%;
+}
+.white2 .creditcardsection .cc-content h3 {
+  color: #2C3135;
+  padding-top: 33%;
+}
+.white2 .creditcardsection .cc-content .cc-first-p {
+  margin-bottom: 32%;
+  font-weight: 600;
+  text-align: justify;
+}
+.white2 .creditcardsection .cc-content img {
+  width: 18%;
+}
+.custodian-two p {
+  font-weight: 600;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 959px) {
+  .imgbttm {
+    display: none;
+    visibility: hidden;
+  }
+  .red p {
+    max-width: 48%;
+    margin-left: 26%;
+  }
+  .grey1 .pratform-content-p {
+    margin-top: -3%;
+    margin-left: 1.1%;
+    max-width: 80%;
+  }
+  .white1 .crmsection1 {
+    margin-bottom: 0%;
+  }
+  .white1 .crm-content-p {
+    max-width: 79%;
+  }
+  .white1 .crm-content-p {
+    color: #6B7C93;
+  }
+  .gradientcrypto .gc-cotainer{
+    margin-bottom: 2%;
+  }
+  .white2 .cc-content .cc-first-p{
+    max-width: 75%; 
+    margin-bottom: 28%;
+  }
+  .white2 .creditcardsection .cc-content img{
+    width: 11.5%;
+    height: 34%;
+  }
+  .grey2 .custodiansection .custodian-two .custodian-title {
+    color: #2C3135;
+    padding-top: 25.5%;
+    margin-bottom: 5%;
+  }
+  .grey2 .custodiansection .custodian-two .custodian-p-1 {
+   max-width: 85%;
+  }
+  .custodianimg {
+    display: inline;
+    visibility: visible;
+  }
+  .white1 {
+    margin-bottom: 0%;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  .imgbttm {
+    display: none;
+    visibility: hidden;
+  }
+  .red p {
+    max-width: 48%;
+    margin-left: 26%;
+  }
+  .grey1 .pratform-content-p {
+    margin-top: -3%;
+    margin-left: 1.1%;
+    max-width: 80%;
+  }
+  .white1 .crmsection1 {
+    margin-bottom: 0%;
+  }
+  .white1 .crm-content-p {
+    max-width: 79%;
+  }
+  .gradientcrypto .gc-cotainer{
+    margin-bottom: 2%;
+  }
+  .white2 .cc-content .cc-first-p{
+    max-width: 75%; 
+    margin-bottom: 28%;
+  }
+  .white2 .cc-content img{
+    width: 11.5%;
+    height: 34%;
+  }
+  .grey2 .custodiansection .custodian-two .custodian-title {
+    color: #2C3135;
+    padding-top: 25.5%;
+    margin-bottom: 5%;
+  }
+  .grey2 .custodiansection .custodian-two .custodian-p-1 {
+   max-width: 85%;
+  }
+  .white1 {
+    margin-bottom: 0%;
+  }
+}
+
+/* Small screens ----------- */
+@media only screen and (min-width: 481px) and (max-width: 959px) {
+  
+}
+
+/* ----------- Nokia Lumia 520 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 533px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- LG Optimus L70 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 384px) 
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;
+    max-width: 200%;
+    width: 187%;
+    top: -4%;
+    margin-left: 11%;
+    height: 120%;
+  }
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- Google Pixel XL ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- Windows Phone ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 959px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+    .imageCont{
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+    .imgbttm {
+
+      padding-bottom: 15%;
+    }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 959px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 959px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- Galaxy Tab 2 ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 959px) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- Galaxy Tab S ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 959px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+/* ----------- Nexus 7 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+ /* ----------- Nexus 9 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 1536px) 
+  and (device-height: 2048px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+} 
+
+/* ----------- Kindle Fire HD 7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 959px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+}
+
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+    .imgbttm {
+      padding-bottom: 15%;
+    }
+    .imageCont .imgbttm{
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;
+    max-width: 200%;
+    width: 187%;
+    top: -4%;
+    left: -17%;
+    margin-left: -6%;
+    height: 120%;
+    overflow-x: hidden;
+  }
+  .custodian-title{
+    margin-top: 40px!important;
+  }
+  .white2 {
+    padding-bottom: 8%;
+    }
+  .crmsection2 {
+    margin-top: 0!important; 
+  }
+  .white2 .creditcardsection .cc-content h3{
+     padding-top: 0;
+   }
+    .white1{
+      background-color: #F7F7F7;
+    }
+    .red p {
+      max-width: 100%;
+    }
+    .red .red1p {
+      max-width: 75%;
+      margin-left: 12%;
+      padding-bottom: 8%;
+    }
+    .red .redpcontents {
+      margin-bottom: 15%;
+    }
+    .platformp-content {
+      margin-left: 8%;
+    }
+    .grey1 .grey1h3 {
+      margin-top: 22%;
+      margin-bottom: 15%;
+    }
+    .grey1 .platform-li {
+      margin-top: 5%;
+      margin-bottom: 10%
+    }
+    .grey1 .platformp-content .pratform-content-p {
+      text-align: justify;
+    }
+    .white1 .crmsection {
+      margin-left: -19%;
+      margin-top: -30%;
+    }
+    .white1 .crm-li {
+      margin-bottom: 10%;
+    }
+    .white1 .crm-content-p {
+      word-spacing: 2px;
+      text-align: justify; 
+    }
+    .gradientcrypto .gradientcrypto-img .cblogo {
+      width: 84%;
+      margin-left: 8%;
+    }
+    .gradientcrypto .gradientcrypto-content p {
+      margin-top: 12%;
+      text-align: justify;
+      max-width: 100%;
+    }
+    .gradientcrypto .gradientcrypto-content h3 {
+      margin-top: 8%;
+    }
+    .gradientcrypto .gradientcrypto-content {
+      margin-left: 3%;
+    }
+    .gradientcrypto {
+      margin-bottom: -20%
+    }
+    .white2 .cc-content {
+      margin-left: -14%;
+      padding-top: 5%;
+    }
+    .white2 .cc-content .cc-title {
+      padding-bottom: 10%;
+    }
+    .white2 .cc-content .cc-first-p{
+      max-width: 98%;
+      word-spacing: 0px;
+      text-align: justify;
+    }
+    .white2 .creditcardsection .cc-content img {
+      width: 21.7%;
+    }
+    .white2 .creditcardsection .cc-content .amexpress {
+      margin-top: 5%;
+    }
+    .white2 .creditcardsection .cc-content .paypal {
+      margin-top: 5%;
+    }
+    .white2 .creditcardsection .cc-content .maestro {
+      margin-top: 5%;
+    }
+    .white2 .creditcardsection .cc-content .secondimgsec {
+      margin-top: 5%;
+    }
+    .grey2 .custodiansection .custodian-two {
+      margin-left: 8%;
+    }
+    .grey2 .custodiansection .custodian-two .custodian-p-1 {
+      max-width: 100%;
+      margin-top: 5%;
+      text-align: justify;
+    }
+    .imgbttm .laptopimg {
+      max-width: 200%;
+      width: 187%;
+      top: -7%;
+      margin-left: -45%;
+      height: 123%;
+      position: relative;
+      left: 38%;
+      margin-right: -38%;
+      margin-top: 0%;    
+    }
+}
+
+/* ----------- Blackberry Playbook ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 600px) 
+  and (device-height: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+  and (-webkit-max-device-pixel-ratio: 1) {
+  .crmsection .crm .crmimage  {
+     display: none;
+  }
+  .creditcardsection .phone .phoneimg {
+     display: none;    
+  }
+  .custodiansection .custodian .custodianimg {
+     display: none;    
+  }
+  .imgtop img {
+    display: none;
+    visibility: hidden;   
+  }
+  .imgbttm img {
+    display: block;
+    visibility: visible;    
+  }
+  .imgbttm .laptopimg {
+    max-width: 200%;
+    width: 187%;
+    top: -7%;
+    margin-left: -45%;
+    height: 123%;
+    position: relative;
+    left: 38%;
+    margin-right: -38%;
+    margin-top: 0%;    
+  }
+}

@@ -1,0 +1,53 @@
+body {
+  background-color: #0C0F31;
+}
+
+form select {
+  background-color: #21224A;
+}
+
+button {
+  background-color: #00D2BB;
+}
+
+.btn-buy {
+  background-color: #00DC6E;  
+}
+
+.btn-sell {
+  background-color: #340C2E;
+}
+
+.btn-deposit{
+  background-color: #00D1C0;
+}
+
+.transaction {
+  background-color: #146CF2;
+}
+
+.history th {
+  background color: #377C85;
+}
+
+.status-complete {
+  color: #4BA98A;
+}
+
+.status-pending {
+  color: #AEA082;
+}
+
+.status-failed {
+  color: #88182F;
+}
+
+.balance{
+  color: #AD9E7E;  
+}
+
+.dashboard-menu {
+  color: #314384;
+}
+
+

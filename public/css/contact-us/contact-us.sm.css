@@ -1,0 +1,51 @@
+
+@media only screen and (max-width: 639px){
+    .contact-us-background{
+        background-image: url(https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+        background-size: 191%;
+        background-position: top left;
+    }
+
+    .text-holder{
+        max-width: 100%;
+        margin-top:40%;
+        height:auto;
+        padding-bottom:20px;
+    }
+
+    .bottom-text-left{
+        padding-bottom:133px ;
+        max-width:100%;
+        font-weight:500;
+        padding-top: 0px;
+    }
+
+    .white-form{
+        width:100%;
+        background-color: #FFFFFF !important;
+    }
+
+    div#contact-us-form{
+        background-color: #FFFFFF !important;
+    }
+    .intro-text-top li span svg{
+        margin-right: 10px;
+    }
+    .intro-text-top{
+        font-weight: 500;
+    }
+    .intro-text-bottom{
+        font-weight: 500;
+    }
+    .white-form {
+        width: 90%!important;
+        margin-left: 0;
+    }
+    .form-textarea {
+        height: 100%;
+    }
+    .form-button{
+        padding: 6px 75px;
+    }
+
+}

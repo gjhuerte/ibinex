@@ -1,0 +1,98 @@
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="uk-width-"] {
+        width: 100%;
+    }
+    #banner-title {
+        text-align: center;
+    }
+    #banner-content{
+        order: 0;
+        width: 100%;
+        padding:8% 5%;
+    }
+    #banner-img{
+        order: 1;
+        width: 100%;
+        min-height: 19em;
+    }
+	#media-cov {
+		padding-top: 3em;
+		margin: auto;
+	}
+	.media-logo {
+		display: block;
+		width: 130px;
+	}
+    .media-logo:nth-last-child(-n+6) {
+        display: none;
+    }
+	#ibx-exec {
+		box-sizing: border-box;
+		padding: 10% 15% 5.9% 15%;
+	}
+    #ibx-divider {
+        display: none;
+    }
+	.exec-item {
+        width: 100%;
+        margin-left:0;
+    }
+	a.exec-arrows {
+		position: relative;
+		font-size: 3.7em;
+	}
+	#arrow-box {
+		width: 100%;
+		text-align: center;
+	}
+	#exec-prev, #exec-next {
+		right:0;
+	}
+	#exec-prev{
+		margin-right: 2px;
+	}
+	#exec-next {
+		margin-left: 2px;
+	}
+	#exec-slideshow {
+		width: 100%;
+		margin: 0;
+		padding-left: 2%;
+    }
+	#exec-album {
+		position: relative;
+		width: 80%;
+		margin: auto;
+		z-index: 0;
+	}
+	.exec-img {
+		position: relative;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	.exec-half {
+        width: 100%;
+        margin-left: 0;
+    }
+	span.board-web-title {
+		display: none;
+	}
+	span.board-mobile-title {
+		display: block;
+		margin-bottom: 1em;
+	}
+	.board-members {
+		margin: 0;
+	}
+	.board-img {
+		width: 60%;
+	}
+	.board-name{
+		font-size: 20px;
+		font-weight: 600;
+	}
+}

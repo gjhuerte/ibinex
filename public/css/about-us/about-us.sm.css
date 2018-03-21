@@ -1,0 +1,229 @@
+
+@media only screen and (max-width : 460px) {
+	#banner-title{
+		font-size: 38px;
+	}	
+	#banner-content{
+		padding-top: 3.7em;
+	}
+	#banner-inner {
+		font-size: 15.5px;
+		line-height: 1.8em;
+	}
+	#banner-img {
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+		filter: FlipH;
+		-ms-filter: "FlipH";
+	}
+	
+	#ibx-media {
+		padding-top: 5em;
+		padding-bottom: 3em;
+	}
+	#media-cov {
+		padding-top: 2em;
+	}
+	.media-logo {
+		width: 90%;
+		margin-bottom: 1em;
+	}
+	
+	#ibx-team {
+		padding-top: 1.5em;
+	}
+	#ibx-exec {
+		box-sizing: border-box;
+		padding: 0;
+	}
+	#exec-team {
+		width: 90%;
+		padding: 0 5%;
+	}
+	#exec-title-1{
+		font-size: 20px;
+	}
+	#exec-title-2{
+		padding: 0.5em 0;
+	}
+	#exec-list {
+		margin-bottom: 25em;
+	}
+	#exec-album {
+		width: 100%;
+		margin: 0;
+	}
+	#exec-slideshow {
+		position: absolute;
+		top: 75%;
+		width: 90%;
+		margin: 0 5%;
+	}
+	#arrow-box {
+		z-index: -99;
+		margin-top: -1em;
+		padding-bottom: 0.5em;
+		display: inline-block;
+		line-height: 3em;
+		overflow: hidden;
+	}
+	.exec-item {
+		width: 84%;
+		margin: 5% 8% 4% 8%;
+	}
+	.exec-rank {
+		font-size: 1em;
+	}
+	.exec-img {
+		height: 20em;
+	}
+	.exec-info {
+		font-size: 70%;
+	}
+	.exec-links {
+		font-size: 80%;
+	}
+	span.board-mobile-title {
+		margin: 0;
+		width: 90%; 
+		text-align: left;
+		padding-left: 12px;
+	}
+	#board-box {
+		padding-top: 3em;
+	}
+	#board-list {
+		padding: 0 0 4.5em 0;
+	}
+	.board-members {
+		margin: 0;
+	}
+	.board-img {
+		margin: 0;
+		width: 100%;
+	}
+	.board-name{
+		font-size: 16px;
+		font-weight: 600;
+	}
+}
+
+.exec-animate-1-2 {
+	animation: exec-image-1-2 0.3s forwards;
+	-webkit-animation: exec-image-1-2 0.3s forwards;
+}
+.exec-animate-2-1 {
+	animation: exec-image-1-2 0.3s reverse forwards;
+	-webkit-animation: exec-image-1-2 0.3s reverse forwards;
+}
+.exec-animate-2-3 {
+	animation: exec-image-2-3 0.3s forwards;
+	-webkit-animation: exec-image-2-3 0.3s forwards;
+}
+.exec-animate-3-2 {
+	animation: exec-image-2-3 0.3s reverse forwards;
+	-webkit-animation: exec-image-2-3 0.3s reverse forwards;
+}
+.exec-animate-1-3 {
+	animation: exec-image-1-last 0.3s forwards;
+	-webkit-animation: exec-image-1-last 0.3s forwards;
+}
+.exec-animate-3-1 {
+	animation: exec-image-1-last 0.3s reverse forwards;
+	-webkit-animation: exec-image-1-last 0.3s reverse forwards;
+}
+	
+@keyframes exec-image-1-2 {
+	0% { 
+		z-index: 3;
+		bottom: 15%;
+		right: 28%;
+		opacity: 1;
+	}
+	100% {
+		z-index: 2;
+		bottom: 5%;
+		right: 20%;
+		opacity: 0.7;
+	}
+}
+@-webkit-keyframes exec-image-1-2 {
+	0% { 
+		z-index: 3;
+		bottom: 15%;
+		right: 28%;
+		opacity: 1;
+	}
+	100% {
+		z-index: 2;
+		bottom: 5%;
+		right: 20%;
+		opacity: 0.7;
+	}
+}
+@keyframes exec-image-2-3 {
+	0% { 
+		z-index: 2;
+		bottom: 5%;
+		right: 20%;
+		opacity: 0.7;
+	}
+	100% {
+		z-index: 1;
+		bottom: 25%;
+		right: 10%;
+		opacity: 0.7;
+	}
+}
+@-webkit-keyframes exec-image-2-3 {
+	0% { 
+		z-index: 2;
+		bottom: 5%;
+		right: 20%;
+		opacity: 0.7;
+	}
+	100% {
+		z-index: 1;
+		bottom: 25%;
+		right: 10%;
+		opacity: 0.7;
+	}
+}
+@keyframes exec-image-1-last {
+	0% { 
+		z-index: 3;
+		bottom: 15%;
+		right: 28%;
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.3;
+		z-index: 0;
+	}
+	100% {
+		z-index: 1;
+		bottom: 25%;
+		right: 10%;
+		opacity: 0.7;
+	}
+}
+@-webkit-keyframes exec-image-1-last {
+	0% { 
+		z-index: 3;
+		bottom: 15%;
+		right: 28%;
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.3;
+		z-index: 0;
+	}
+	100% {
+		z-index: 1;
+		bottom: 25%;
+		right: 10%;
+		opacity: 0.7;
+	}
+}
